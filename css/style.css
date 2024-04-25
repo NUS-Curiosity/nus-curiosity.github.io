@@ -75,3 +75,42 @@ footer {
     padding: 10px;
     background-color: #f0f0f0;
 }
+
+/* for publications */
+.publications-container {
+    /* width: 75%;  */
+    /* margin: 20px auto; */
+    /* padding: 0 20px; */
+}
+
+.publication {
+    border: 1px solid #ddd; /* A light border around each publication */
+    padding: 15px;
+    margin-bottom: 20px; /* Adds space between entries */
+    background-color: #f9f9f9; /* A light background color */
+}
+
+.paper-title {
+    margin: 0;
+    color: #0056b3; /* Color for the paper title */
+    font-size: 1em; /* Slightly larger font size for the title */
+}
+
+.authors, .publisher, .links {
+    margin: 5px 0; /* Vertical spacing */
+    color: #333; /* Dark grey text color */
+    /* text-align: left; */
+}
+
+.links a {
+    color: #007bff; /* Color for links */
+    text-decoration: none; /* Removes underline */
+}
+
+.links a:hover {
+    text-decoration: underline; /* Underlines links on hover for better user interaction */
+}
+
+.pdf-link, .code-link, .slides-link {
+    margin-right: 10px; /* Adds spacing between links */
+}
