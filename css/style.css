@@ -59,13 +59,19 @@ nav a:hover {
     background-color: #0056b3; /* Color for hover state */
 }
 
-main {
-    padding: 20px;
-    text-align: center;
+.container {
+    width: 65%; /* Or whatever maximum width you prefer */
+    margin: 0 auto; /* This centers the container */
+    padding: 0 20px; 
+    margin-bottom: 30px;
 }
+
+/* main {
+    text-align: center;
+} */
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #f0f0f0;
 }

@@ -1,3 +1,3 @@
-# NUS CURIOSITY Lab
+# NUS CURIOSITY InfoSec Research Group
 
-Homepage of NUS CURIOSITY Lab (Cybersecurity)
+Homepage of NUS CURIOSITY InfoSec Research Group.
