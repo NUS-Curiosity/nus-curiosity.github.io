@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    /* flex-direction: column; */
+}
+
+
+.logo {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.lab-name {
+    font-size: 40px;
+    color: #333;
+}
+
+nav {
+    text-align: center; /* Center the navigation container */
+    margin-bottom: 20px; /* Add space below the navigation bar */
+}
+
+nav {
+    /* background-color: teal;  */
+    /* background-color: tan;  */
+    background-color: brown; 
+    /* padding: 1rem 0;  */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers the list items horizontally */
+}
+
+nav ul li {
+    position: relative; /* Allows absolute positioning relative to each li */
+}
+
+nav a {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-transform: uppercase;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #0056b3; /* Color for hover state */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
