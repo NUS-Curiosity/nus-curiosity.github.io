@@ -61,6 +61,7 @@ nav a:hover {
 
 .container {
     width: 65%; /* Or whatever maximum width you prefer */
+    max-width: 1000px; /* Maximum width of the container */
     margin: 0 auto; /* This centers the container */
     padding: 0 20px; 
     margin-bottom: 30px;
