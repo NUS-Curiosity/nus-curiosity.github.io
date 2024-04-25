@@ -84,10 +84,10 @@ footer {
 }
 
 .publication {
-    border: 1px solid #ddd; /* A light border around each publication */
-    padding: 15px;
-    margin-bottom: 20px; /* Adds space between entries */
-    background-color: #f9f9f9; /* A light background color */
+    /* border: 1px solid #ddd;  */
+    /* padding: 15px; */
+    margin-bottom: 10px; 
+    /* background-color: #f9f9f9;  */
 }
 
 .paper-title {
@@ -97,9 +97,13 @@ footer {
 }
 
 .authors, .publisher, .links {
-    margin: 5px 0; /* Vertical spacing */
+    margin: 5px 0; 
     color: #333; /* Dark grey text color */
     /* text-align: left; */
+}
+
+.publisher {
+    font-style: italic; /* Italicize the publisher */
 }
 
 .links a {
@@ -111,6 +115,6 @@ footer {
     text-decoration: underline; /* Underlines links on hover for better user interaction */
 }
 
-.pdf-link, .code-link, .slides-link {
-    margin-right: 10px; /* Adds spacing between links */
-}
+/* .pdf-link, .code-link, .slides-link {
+    margin-right: 10px; 
+} */
