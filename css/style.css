@@ -11,6 +11,9 @@ header {
     /* flex-direction: column; */
 }
 
+.welcome-h2 {
+    font-size: 30px;
+}
 
 .logo {
     width: 200px;
@@ -65,6 +68,33 @@ nav a:hover {
     margin: 0 auto; /* This centers the container */
     padding: 0 20px; 
     margin-bottom: 30px;
+    display: flex;
+}
+
+.welcome-section {
+    display: flex; /* 设置 flex 布局 */
+    justify-content: space-between; /* 子元素之间的间距平均分布 */
+    align-items: center; /* 垂直居中对齐 */
+    width: 100%; /* 父容器宽度占满整个页面宽度 */
+  }
+
+.welcome-text {
+    flex: 2.5;
+    /* padding-right: 100px; */
+}
+
+.welcome-text, .welcome-image {
+    /* padding: 10px;  */
+}
+
+.welcome-image {
+    flex: 1;
+    /* margin-left: 50px; */
+}
+
+.welcome-image img {
+    width: 100%; /* 图片宽度自适应其容器宽度 */
+    height: auto; /* 图片高度自动调整以保持纵横比 */
 }
 
 /* main {
