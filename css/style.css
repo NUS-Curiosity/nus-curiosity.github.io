@@ -193,3 +193,29 @@ footer {
         flex-basis: 100%; /* 1 item per row on small screens */
     }
 }
+
+.news-section {
+    width: 100%; /* Adjust width as necessary */
+    margin-bottom: 30px; /* Space below the news section */
+}
+
+.news-item {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically align the date and content */
+    margin-bottom: 15px; /* Space between news items */
+}
+
+.news-date {
+    font-weight: bold; /* Makes the date bold */
+    color: #007bff; /* Sets the text color */
+    margin-right: 10px; /* Space between date and news content */
+    background-color: #e7f5ff; /* Light background color for the date */
+    padding: 2px 6px; /* Padding around the date */
+    border-radius: 4px; /* Rounded corners for the background */
+    font-family: 'Courier New', monospace; /* Change the font for the date */
+}
+
+.news-content {
+    margin: 0; /* Resets the margin */
+    flex-grow: 1; /* Allows the news content to fill the remaining space */
+}
