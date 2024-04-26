@@ -157,3 +157,39 @@ footer {
 /* .pdf-link, .code-link, .slides-link {
     margin-right: 10px; 
 } */
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap; /* This allows items to wrap to the next line */
+    justify-content: space-around; /* This spreads out the items evenly */
+    padding: 0;
+    list-style: none;
+}
+
+.team-member {
+    flex-basis: 30%; /* Adjust this percentage to change how many items are in one row */
+    margin: 1%; /* Adjust margin for spacing */
+    text-align: center; /* Centers the content */
+    box-sizing: border-box;
+}
+
+.member-photo {
+    width: 60%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    /* border-radius: 50%;  */
+    margin-bottom: 0.5em; /* Space between image and name */
+}
+
+.member-name {
+    display: block; /* Ensures the hyperlink takes up the full width of its container */
+    text-decoration: none; /* Optional: removes the underline from hyperlinks */
+    color: #333; /* Sets the text color */
+    font-weight: bold; /* Makes the name bold */
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    .team-member {
+        flex-basis: 100%; /* 1 item per row on small screens */
+    }
+}
