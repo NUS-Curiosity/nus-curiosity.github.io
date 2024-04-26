@@ -71,6 +71,14 @@ nav a:hover {
     display: flex;
 }
 
+.motto-zh {
+    font-family: STKaiti;
+    font-size: large;
+    /* margin-top: -5px; */
+    font-weight: bold;
+    /* text-align: right; */
+}
+
 .welcome-section {
     display: flex; /* 设置 flex 布局 */
     justify-content: space-between; /* 子元素之间的间距平均分布 */
