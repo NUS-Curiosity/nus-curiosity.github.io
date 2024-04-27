@@ -174,7 +174,7 @@ footer {
 }
 
 .member-photo {
-    width: 60%; /* Makes the image responsive */
+    width: 50%; /* Makes the image responsive */
     height: auto; /* Maintains aspect ratio */
     /* border-radius: 50%;  */
     margin-bottom: 0.5em; /* Space between image and name */
