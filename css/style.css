@@ -179,8 +179,8 @@ footer {
         text-align: center; /* 确保标题在小屏幕上居中显示 */
         font-size: 24px;
     }
-    .larger-h2 {
-        font-size: 26px; /* 降低标题字体大小 */
+    .container {
+        width: 80%;
     }
     .welcome-section {
         flex-direction: column; /* 堆叠布局 */
@@ -190,7 +190,12 @@ footer {
     }
     .welcome-image img {
         max-width: 100%; /* 图片最大宽度为容器宽度 */
+        width: 66%;
     }
+    .news-date {
+        display: inline-block; /* 使元素表现得像块级元素，能够设置宽度 */
+        min-width: 80px; /* 设置一个最小宽度 */
+        text-align: center; /* 使文本在块内居中 */
 }
 
 .news-section {
