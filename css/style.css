@@ -8,7 +8,6 @@ header {
     align-items: center;
     padding: 10px 20px;
     background-color: #f8f8f8;
-    /* flex-direction: column; */
 }
 
 .larger-h2 {
@@ -31,10 +30,7 @@ nav {
 }
 
 nav {
-    /* background-color: teal;  */
-    /* background-color: tan;  */
     background-color: brown; 
-    /* padding: 1rem 0;  */
 }
 
 nav ul {
@@ -50,7 +46,6 @@ nav ul li {
 }
 
 nav a {
-    /* font-family: Arial, Helvetica, sans-serif; */
     text-transform: uppercase;
     padding: 10px 15px;
     color: white;
@@ -74,9 +69,7 @@ nav a:hover {
 .motto-zh {
     font-family: STKaiti;
     font-size: large;
-    /* margin-top: -5px; */
     font-weight: bold;
-    /* text-align: right; */
 }
 
 .welcome-section {
@@ -88,16 +81,10 @@ nav a:hover {
 
 .welcome-text {
     flex: 2.5;
-    /* padding-right: 100px; */
-}
-
-.welcome-text, .welcome-image {
-    /* padding: 10px;  */
 }
 
 .welcome-image {
     flex: 1;
-    /* margin-left: 50px; */
 }
 
 .welcome-image img {
@@ -105,28 +92,14 @@ nav a:hover {
     height: auto; /* 图片高度自动调整以保持纵横比 */
 }
 
-/* main {
-    text-align: center;
-} */
-
 footer {
     text-align: center;
     padding: 10px;
     background-color: #f0f0f0;
 }
 
-/* for publications */
-.publications-container {
-    /* width: 75%;  */
-    /* margin: 20px auto; */
-    /* padding: 0 20px; */
-}
-
 .publication {
-    /* border: 1px solid #ddd;  */
-    /* padding: 15px; */
     margin-bottom: 10px; 
-    /* background-color: #f9f9f9;  */
 }
 
 .paper-title {
@@ -138,7 +111,6 @@ footer {
 .authors, .publisher, .links {
     margin: 5px 0; 
     color: #333; /* Dark grey text color */
-    /* text-align: left; */
 }
 
 .publisher {
@@ -153,10 +125,6 @@ footer {
 .links a:hover {
     text-decoration: underline; /* Underlines links on hover for better user interaction */
 }
-
-/* .pdf-link, .code-link, .slides-link {
-    margin-right: 10px; 
-} */
 
 .team-container {
     display: flex;
@@ -191,6 +159,28 @@ footer {
 @media (max-width: 768px) {
     .team-member {
         flex-basis: 100%; /* 1 item per row on small screens */
+    }
+    nav ul {
+        flex-direction: column; /* 将导航项垂直排列 */
+    }
+    nav a {
+        padding: 10px; /* 增加填充以便更易于点击 */
+        border-bottom: 1px solid #ccc; /* 添加分隔线以区分各导航项 */
+    }
+    .logo {
+        width: 100px; /* 缩小Logo的宽度 */
+    }
+    .lab-name {
+        font-size: 24px; /* 减小字体大小 */
+    }
+    .welcome-section {
+        flex-direction: column; /* 堆叠布局 */
+    }
+    .welcome-text, .welcome-image {
+        flex: 100%; /* 占满整个容器宽度 */
+    }
+    .welcome-image img {
+        max-width: 100%; /* 图片最大宽度为容器宽度 */
     }
 }
 
