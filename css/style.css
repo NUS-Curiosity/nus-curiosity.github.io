@@ -179,6 +179,9 @@ footer {
         text-align: center; /* 确保标题在小屏幕上居中显示 */
         font-size: 24px;
     }
+    .larger-h2 {
+        font-size: 26px;
+    }
     .container {
         width: 80%;
     }
