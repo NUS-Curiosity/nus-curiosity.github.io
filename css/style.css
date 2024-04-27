@@ -167,11 +167,20 @@ footer {
         padding: 10px; /* 增加填充以便更易于点击 */
         border-bottom: 1px solid #ccc; /* 添加分隔线以区分各导航项 */
     }
+    header {
+        flex-direction: column; /* 将header内的元素改为垂直排列 */
+        align-items: center; /* 确保元素水平居中对齐 */
+    }
     .logo {
-        width: 100px; /* 缩小Logo的宽度 */
+        margin-right: 0; /* 移除Logo右边的间距，因为现在不需要并排显示 */
+        margin-bottom: 10px; /* 在Logo和标题之间添加一些空间 */
     }
     .lab-name {
-        font-size: 24px; /* 减小字体大小 */
+        text-align: center; /* 确保标题在小屏幕上居中显示 */
+        font-size: 24px;
+    }
+    .larger-h2 {
+        font-size: 26px; /* 降低标题字体大小 */
     }
     .welcome-section {
         flex-direction: column; /* 堆叠布局 */
