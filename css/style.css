@@ -199,6 +199,7 @@ footer {
         display: inline-block; /* 使元素表现得像块级元素，能够设置宽度 */
         min-width: 80px; /* 设置一个最小宽度 */
         text-align: center; /* 使文本在块内居中 */
+    }
 }
 
 .news-section {
