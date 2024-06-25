@@ -227,3 +227,67 @@ footer {
     margin: 0; /* Resets the margin */
     flex-grow: 1; /* Allows the news content to fill the remaining space */
 }
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Make the project card width 100% */
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s;
+}
+
+/* .project-card:hover {
+    transform: translateY(-5px);
+} */
+
+.project-logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.project-details {
+    flex: 1;
+}
+
+.project-title {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.project-description {
+    margin: 5px 0 0;
+    color: #666;
+    /* text-align: justify;  */
+}
+
+/* Add spacing below the paragraph */
+.spacing {
+    height: 20px; /* Adjust the height as needed */
+}
+
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
