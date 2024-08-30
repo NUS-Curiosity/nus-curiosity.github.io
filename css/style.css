@@ -67,7 +67,7 @@ nav a:hover {
 }
 
 .motto-zh {
-    font-family: STKaiti;
+    font-family: 'STKaiti', 'KaiTi', 'STSong', 'SimSun', serif;
     font-size: large;
     font-weight: bold;
 }
