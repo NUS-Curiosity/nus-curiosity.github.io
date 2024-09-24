@@ -291,3 +291,66 @@ footer {
         margin-bottom: 10px;
     }
 }
+
+/* Gallery photo grid */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+    gap: 20px; /* 每个照片之间的间距 */
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto; /* 居中对齐 */
+}
+
+/* Individual photo styling */
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 给照片增加轻微阴影 */
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img {
+    width: 100%; /* 限制每张图片的宽度为100%，与父元素一致 */
+    height: auto; /* 高度自适应宽度 */
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.gallery-item:hover {
+    transform: scale(1.05); /* 鼠标悬停时略微放大图片 */
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1); /* 进一步放大图片 */
+}
+
+/* Optional caption for each photo */
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-item:hover .gallery-caption {
+    opacity: 1; /* 悬停时显示图片说明 */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 调整照片墙在小屏幕的显示 */
+    }
+}
