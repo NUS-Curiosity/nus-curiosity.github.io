@@ -221,6 +221,7 @@ footer {
     padding: 2px 6px; /* Padding around the date */
     border-radius: 4px; /* Rounded corners for the background */
     font-family: 'Courier New', monospace; /* Change the font for the date */
+    white-space: nowrap;
 }
 
 .news-content {
