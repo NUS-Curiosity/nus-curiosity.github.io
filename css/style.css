@@ -25,8 +25,8 @@ header {
 }
 
 nav {
-    text-align: center; /* Center the navigation container */
-    margin-bottom: 20px; /* Add space below the navigation bar */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 nav {
@@ -38,11 +38,11 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Centers the list items horizontally */
+    justify-content: center;
 }
 
 nav ul li {
-    position: relative; /* Allows absolute positioning relative to each li */
+    position: relative;
 }
 
 nav a {
@@ -54,13 +54,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #0056b3; /* Color for hover state */
+    background-color: #0056b3;
 }
 
 .container {
-    width: 65%; /* Or whatever maximum width you prefer */
-    max-width: 1000px; /* Maximum width of the container */
-    margin: 0 auto; /* This centers the container */
+    width: 65%;
+    max-width: 1000px;
+    margin: 0 auto;
     padding: 0 20px; 
     margin-bottom: 30px;
     display: flex;
@@ -73,10 +73,10 @@ nav a:hover {
 }
 
 .welcome-section {
-    display: flex; /* 设置 flex 布局 */
-    justify-content: space-between; /* 子元素之间的间距平均分布 */
-    align-items: center; /* 垂直居中对齐 */
-    width: 100%; /* 父容器宽度占满整个页面宽度 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
 
 .welcome-text {
@@ -88,8 +88,8 @@ nav a:hover {
 }
 
 .welcome-image img {
-    width: 100%; /* 图片宽度自适应其容器宽度 */
-    height: auto; /* 图片高度自动调整以保持纵横比 */
+    width: 100%;
+    height: auto;
 }
 
 footer {
@@ -104,79 +104,77 @@ footer {
 
 .paper-title {
     margin: 0;
-    color: #0056b3; /* Color for the paper title */
-    font-size: 1em; /* Slightly larger font size for the title */
+    color: #0056b3;
+    font-size: 1em;
 }
 
 .authors, .publisher, .links {
     margin: 5px 0; 
-    color: #333; /* Dark grey text color */
+    color: #333;
 }
 
 .publisher {
-    font-style: italic; /* Italicize the publisher */
+    font-style: italic;
 }
 
 .links a {
-    color: #007bff; /* Color for links */
-    text-decoration: none; /* Removes underline */
+    color: #007bff;
+    text-decoration: none;
 }
 
 .links a:hover {
-    text-decoration: underline; /* Underlines links on hover for better user interaction */
+    text-decoration: underline;
 }
 
 .team-container {
     display: flex;
-    flex-wrap: wrap; /* This allows items to wrap to the next line */
-    justify-content: space-around; /* This spreads out the items evenly */
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 0;
     list-style: none;
 }
 
 .team-member {
-    flex-basis: 30%; /* Adjust this percentage to change how many items are in one row */
-    margin: 1%; /* Adjust margin for spacing */
-    text-align: center; /* Centers the content */
+    flex-basis: 30%;
+    margin: 1%;
+    text-align: center;
     box-sizing: border-box;
 }
 
 .member-photo {
-    width: 50%; /* Makes the image responsive */
-    height: auto; /* Maintains aspect ratio */
-    /* border-radius: 50%;  */
-    margin-bottom: 0.5em; /* Space between image and name */
+    width: 50%;
+    height: auto;
+    margin-bottom: 0.5em;
 }
 
 .member-name {
-    display: block; /* Ensures the hyperlink takes up the full width of its container */
-    text-decoration: none; /* Optional: removes the underline from hyperlinks */
-    color: #333; /* Sets the text color */
-    font-weight: bold; /* Makes the name bold */
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 
-/* Responsive layout for smaller screens */
 @media (max-width: 768px) {
     .team-member {
-        flex-basis: 100%; /* 1 item per row on small screens */
+        flex-basis: 100%;
     }
     nav ul {
-        flex-direction: column; /* 将导航项垂直排列 */
+        flex-direction: column;
     }
     nav a {
-        padding: 10px; /* 增加填充以便更易于点击 */
-        border-bottom: 1px solid #ccc; /* 添加分隔线以区分各导航项 */
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
     }
     header {
-        flex-direction: column; /* 将header内的元素改为垂直排列 */
-        align-items: center; /* 确保元素水平居中对齐 */
+        flex-direction: column;
+        align-items: center;
     }
     .logo {
-        margin-right: 0; /* 移除Logo右边的间距，因为现在不需要并排显示 */
-        margin-bottom: 10px; /* 在Logo和标题之间添加一些空间 */
+        margin-right: 0;
+        margin-bottom: 10px;
     }
     .lab-name {
-        text-align: center; /* 确保标题在小屏幕上居中显示 */
+        text-align: center;
         font-size: 24px;
     }
     .larger-h2 {
@@ -186,47 +184,47 @@ footer {
         width: 80%;
     }
     .welcome-section {
-        flex-direction: column; /* 堆叠布局 */
+        flex-direction: column;
     }
     .welcome-text, .welcome-image {
-        flex: 100%; /* 占满整个容器宽度 */
+        flex: 100%;
     }
     .welcome-image img {
-        max-width: 100%; /* 图片最大宽度为容器宽度 */
+        max-width: 100%;
         width: 66%;
     }
     .news-date {
-        display: inline-block; /* 使元素表现得像块级元素，能够设置宽度 */
-        min-width: 80px; /* 设置一个最小宽度 */
-        text-align: center; /* 使文本在块内居中 */
+        display: inline-block;
+        min-width: 80px;
+        text-align: center;
     }
 }
 
 .news-section {
-    width: 100%; /* Adjust width as necessary */
-    margin-bottom: 30px; /* Space below the news section */
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .news-item {
-    display: flex; /* Use flexbox for alignment */
-    align-items: center; /* Vertically align the date and content */
-    margin-bottom: 15px; /* Space between news items */
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
 .news-date {
-    font-weight: bold; /* Makes the date bold */
-    color: #007bff; /* Sets the text color */
-    margin-right: 10px; /* Space between date and news content */
-    background-color: #e7f5ff; /* Light background color for the date */
-    padding: 2px 6px; /* Padding around the date */
-    border-radius: 4px; /* Rounded corners for the background */
-    font-family: 'Courier New', monospace; /* Change the font for the date */
+    font-weight: bold;
+    color: #007bff;
+    margin-right: 10px;
+    background-color: #e7f5ff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
     white-space: nowrap;
 }
 
 .news-content {
-    margin: 0; /* Resets the margin */
-    flex-grow: 1; /* Allows the news content to fill the remaining space */
+    margin: 0;
+    flex-grow: 1;
 }
 
 .projects-container {
@@ -238,7 +236,7 @@ footer {
 .project-card {
     display: flex;
     align-items: center;
-    width: 100%; /* Make the project card width 100% */
+    width: 100%;
     margin-bottom: 20px;
     padding: 10px;
     background-color: #f8f8f8;
@@ -249,10 +247,6 @@ footer {
     color: inherit;
     transition: transform 0.2s;
 }
-
-/* .project-card:hover {
-    transform: translateY(-5px);
-} */
 
 .project-logo {
     width: 80px;
@@ -273,12 +267,10 @@ footer {
 .project-description {
     margin: 5px 0 0;
     color: #666;
-    /* text-align: justify;  */
 }
 
-/* Add spacing below the paragraph */
 .spacing {
-    height: 20px; /* Adjust the height as needed */
+    height: 20px;
 }
 
 @media (max-width: 768px) {
@@ -293,50 +285,45 @@ footer {
     }
 }
 
-/* Gallery photo grid */
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
-    gap: 20px; /* 每个照片之间的间距 */
+    gap: 20px;
     padding: 20px;
     max-width: 1000px;
     width: 100%;
-    margin: 0 auto; /* 居中对齐 */
+    margin: 0 auto;
 }
 
-/* Individual photo styling */
 .gallery-item {
     position: relative;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 给照片增加轻微阴影 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
 
 .gallery-item img {
-    width: 100%; /* 限制每张图片的宽度为100%，与父元素一致 */
-    height: auto; /* 高度自适应宽度 */
+    width: 100%;
+    height: auto;
     display: block;
     transition: transform 0.3s ease-in-out;
 }
 
-/* Hover effect */
 .gallery-item:hover {
-    transform: scale(1.05); /* 鼠标悬停时略微放大图片 */
+    transform: scale(1.05);
 }
 
 .gallery-item:hover img {
-    transform: scale(1.1); /* 进一步放大图片 */
+    transform: scale(1.1);
 }
 
-/* Optional caption for each photo */
 .gallery-caption {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     text-align: center;
     padding: 10px;
@@ -346,12 +333,11 @@ footer {
 }
 
 .gallery-item:hover .gallery-caption {
-    opacity: 1; /* 悬停时显示图片说明 */
+    opacity: 1;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .gallery {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 调整照片墙在小屏幕的显示 */
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 }
