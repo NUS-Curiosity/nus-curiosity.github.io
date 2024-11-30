@@ -29,8 +29,8 @@ nav {
     margin-bottom: 20px;
 }
 
-nav {
-    background-color: brown; 
+nav { 
+    background-color:  /* 52 92 180 */ #345cb4;
 }
 
 nav ul {
